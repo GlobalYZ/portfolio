@@ -1,0 +1,5 @@
+.customProject {
+    border-radius: 50% 10%;
+    display: inline-block;
+    background-image: linear-gradient(to bottom left, #f83600, #f9d423);
+}
