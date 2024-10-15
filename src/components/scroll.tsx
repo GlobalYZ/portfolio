@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {FC, memo,useEffect, useRef, useState} from 'react';
+import {FC, memo, useEffect, useRef, useState} from 'react';
 
 interface ScrollContainerProps {
   data: {imgSrc: string; text: string}[];
@@ -54,9 +54,9 @@ const ScrollContainer: FC<ScrollContainerProps> = memo(({data}) => {
         style={{width: `${containerWidth}px`}}>
         <div className="flex pl-[40px] justify-evenly space-x-12">
           {data.map((item, index) => (
-            <div className="flex flex-col items-center space-y-1" key={index}>
+            <div className="flex flex-col items-center" key={index}>
               <Image alt={`item-${index}`} className="w-8 h-8 object-cover" src={item.imgSrc} />
-              <p className="mt-2 text-center">{item.text}</p>
+              <p className="mt-2 text-center px-2">{item.text}</p>
             </div>
           ))}
         </div>

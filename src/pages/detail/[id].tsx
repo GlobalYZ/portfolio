@@ -1,5 +1,5 @@
 import {useRouter} from 'next/router';
-import {useState, useEffect, memo} from 'react';
+import {memo,useEffect, useState} from 'react';
 
 import Loader from '../../components/Loader/Loader';
 import DetailContent from '../../components/Sections/Detail/DetailContent';

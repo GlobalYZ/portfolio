@@ -108,12 +108,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        BCIT Computer Systems Technology Student with
-        <strong className="text-stone-100"> one year of hands-on experience as a Frontend Developer </strong>. and three
-        years of experience in software development. Skilled in planning, designing, and developing applications that
-        adhere to industry standards using agile methodologies. I am also a collaborative team player with strong
-        communication skills, effectively engaging with both colleagues and clients to ensure seamless project
-        execution.
+        BCIT Computer Systems Technology Student with 3 years of hands-on experience in web development. Skilled in
+        planning, designing, and developing applications that adhere to industry standards using agile methodologies. I
+        am also a collaborative team player with strong communication skills, effectively engaging with both colleagues
+        and clients to ensure seamless project execution.
         <br />
       </p>
     </>
@@ -138,8 +136,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a BCIT student, I'm passionate about creating beautiful and functional user interfaces. 
-  Proficient in planning, designing, and developing applications that meet industrial standards using agile methodology. I am comfortable working with both frontend and backend technologies.`,
+  description: `As a BCIT student, I'm passionate to apply my expertise in web development to create innovative solutions that meet the needs of clients and users. 
+  I have a strong foundation in frontend and backend development, with experience in technologies such as React, Vue, and NodeJS. I am also a quick learner with an open mindset, always eager to explore new technologies and methodologies to enhance my skills.`,
   aboutItems: [
     {label: 'Location', text: 'Richmond, BC', Icon: MapIcon},
     {label: 'Age', text: '27', Icon: CalendarIcon},
@@ -185,11 +183,11 @@ export const skills: SkillGroup[] = [
         level: 6,
       },
       {
-        name: 'Laravel',
-        level: 6,
+        name: 'NodeJS',
+        level: 7,
       },
       {
-        name: 'Flask',
+        name: 'Laravel',
         level: 6,
       },
       {
@@ -328,7 +326,7 @@ export const portfolioItems: PortfolioItem[] = [
       'Worked in the development team of New Oriental Education & Technology Group company as a Frontend Developer.',
     ],
     time: ['May 2021', 'September 2021'],
-    tech: ['wechatmini', 'html', 'css'],
+    tech: ['wechatmini', 'html', 'css', 'javascript'],
     socials: [],
   },
   {
@@ -355,12 +353,14 @@ export const portfolioItems: PortfolioItem[] = [
       'Integrated Docker to containerize the application, ensuring seamless deployment to Google Cloud Platform (GCP).',
       'Utilized TypeScript, React.js, Next.js, and Tailwind CSS for a fast, responsive, and scalable front-end.',
       'Ensured that the application is fully responsive and optimized for different devices and screen sizes.',
-      'Leveraged agile methodologies for efficient project planning, development, and iteration.',
-      'Deployed the application to Google Cloud using a Dockerized environment to ensure reliability and scalability.',
+      'Deployed the application to render using a Dockerized environment to ensure reliability and scalability.',
     ],
-    tech: ['docker', 'typescript', 'reactjs', 'tailwind', 'yarn', 'gcp', 'nextjs'],
+    tech: ['docker', 'typescript', 'reactjs', 'tailwind', 'yarn', 'render', 'nextjs'],
     time: ['August 2024', 'Present'],
-    socials: [{label: 'hosted Link', Icon: UrlIcon, href: 'https://muyangdev.com/'}],
+    socials: [
+      {label: 'hosted Link', Icon: UrlIcon, href: 'https://muyangdev.com/'},
+      {label: 'Github', Icon: GithubIcon, href: 'https://github.com/GlobalYZ/portfolio.git'},
+    ],
   },
   {
     title: 'EcoStack',
