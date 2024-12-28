@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import {FC, memo, useEffect,useState} from 'react';
+import {FC, memo, useEffect, useState} from 'react';
 
 import Page from '../components/Layout/Page';
 import Loader from '../components/Loader/Loader'; // Assuming you already have a Loader component

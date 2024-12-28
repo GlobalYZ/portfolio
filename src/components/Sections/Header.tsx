@@ -11,13 +11,11 @@ export const headerID = 'headerNav';
 
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
-  const navSections = useMemo(
-    () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Testimonials],
-    [],
-  );
+  const navSections = useMemo(() => [SectionId.Home, SectionId.About, SectionId.Resume, SectionId.Contact], []);
 
   const intersectionHandler = useCallback((section: SectionId | null) => {
     section && setCurrentSection(section);
+    console.log('Current active section:', section);
   }, []);
 
   useNavObserver(navSections.map(section => `#${section}`).join(','), intersectionHandler);
@@ -48,6 +46,11 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
               section={section}
             />
           ))}
+          <a
+            className="w-32 text-white text-center font-bold hover:text-orange-500"
+            href="https://project-gallery-chnd.onrender.com/">
+            View Projects
+          </a>
         </nav>
       </header>
     );
