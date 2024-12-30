@@ -135,10 +135,11 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a BCIT student, I'm passionate to apply my expertise in web development to create innovative solutions that meet the needs of clients and users. 
-  I have a strong foundation in frontend and backend development, with experience in technologies such as React, Vue, and NodeJS. I am also a quick learner with an open mindset, always eager to explore new technologies and methodologies to enhance my skills.`,
+  description: `As a graduated BCIT student, I'm passionate to apply my expertise in web & mobile development to create innovative solutions that meet the needs of clients and users. 
+  I have a strong foundation in frontend development plus some practical experience on backend development, from UX/UI design, development, automation testing to CI/CD deployment able to work in a full cycle of project development. 
+  I have experience in many technologies such as React, React Native, NodeJS, Docker, etc. I am also a quick learner with an open mindset, always eager to explore new technologies and methodologies to enhance my skills.`,
   aboutItems: [
-    {label: 'Location', text: 'Richmond, BC', Icon: MapIcon},
+    {label: 'Location', text: 'Edmonton, AB, Canada', Icon: MapIcon},
     {label: 'Age', text: '27', Icon: CalendarIcon},
     {label: 'Interests', text: 'Hiking, Gaming', Icon: SparklesIcon},
     {label: 'Study', text: 'British Columbia Institute of Technology', Icon: AcademicCapIcon},
@@ -157,20 +158,20 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'UI/UX Mockups',
-        level: 5,
+        name: 'UI/UX Design',
+        level: 7,
       },
       {
         name: 'React',
         level: 7,
       },
       {
-        name: 'Vue',
-        level: 6,
+        name: 'Responsive Development',
+        level: 7,
       },
       {
-        name: 'Tailwind / Bootstrap',
-        level: 8,
+        name: 'React Native',
+        level: 6,
       },
     ],
   },
@@ -178,15 +179,15 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'MySQL & SQLite',
+        name: 'NodeJS',
         level: 6,
       },
       {
-        name: 'NodeJS',
+        name: 'REST API Development',
         level: 7,
       },
       {
-        name: 'Laravel',
+        name: 'SQL',
         level: 6,
       },
       {
@@ -194,8 +195,8 @@ export const skills: SkillGroup[] = [
         level: 6,
       },
       {
-        name: 'Cloud Platforms',
-        level: 5,
+        name: 'CI/CD',
+        level: 6,
       },
     ],
   },
@@ -215,12 +216,12 @@ export const skills: SkillGroup[] = [
         level: 6,
       },
       {
-        name: 'PHP',
+        name: 'Kotlin',
         level: 5,
       },
       {
-        name: 'SQL',
-        level: 7,
+        name: 'Swift',
+        level: 5,
       },
     ],
   },
