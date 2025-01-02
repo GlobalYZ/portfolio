@@ -411,6 +411,17 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'September 2024 – December 2024',
+    location: 'BCIT ISSP Program, Vancouver, Canada',
+    title: 'Full Stack Developer',
+    content: (
+      <p>
+        Developed an Android application using React Native with a Node.js backend, featuring a promptly responsive
+        notification system.
+      </p>
+    ),
+  },
+  {
     date: 'Oct 2021 – Jan 2022',
     location: 'Magic Creativity Co LTD, Tianjin, China',
     title: 'Frontend Developer',
@@ -445,6 +456,11 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Warren Todd, Galapagos Technologies Incorporated CEO',
       text: 'Muyang consistently brings a positive attitude to the workplace, which fosters a collaborative and productive environment. She is not only a strong communicator but also a proactive problem solver who is always eager to take on new challenges.',
+      image: '/avatar.png',
+    },
+    {
+      name: 'Barry Pointon',
+      text: 'I am confident that Muyang’s talents, professionalism, and dedication will make her an asset to anyteam as shown by her excellent work in this project...She worked well professionally and collaboratively, with a commitment toward quality and timely delivery',
       image: '/avatar.png',
     },
   ],
