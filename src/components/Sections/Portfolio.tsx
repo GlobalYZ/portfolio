@@ -36,7 +36,7 @@ const Portfolio: FC = memo(() => {
       <div className="flex flex-col gap-y-8 justify-center items-center">
         <h2 className="self-center md:text-2xl text-xl font-bold text-white">Project Gallery</h2>
         <a
-          className="bg-blue-500 text-white px-4 py-2 rounded-md w-32 text-center"
+          className="bg-orange-500 text-white px-4 py-2 rounded-md w-32 text-center"
           href="https://project-gallery-chnd.onrender.com/">
           GO
         </a>
