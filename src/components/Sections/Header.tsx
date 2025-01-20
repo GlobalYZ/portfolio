@@ -110,6 +110,11 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
                       section={section}
                     />
                   ))}
+                  <a
+                    className="w-32 text-white text-center font-bold"
+                    href="https://project-gallery-chnd.onrender.com/">
+                    View Projects
+                  </a>
                 </nav>
               </div>
             </Transition.Child>
